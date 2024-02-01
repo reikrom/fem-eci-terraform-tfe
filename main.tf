@@ -2,7 +2,7 @@ module "project" {
   for_each = local.project
 
   source  = "ALT-F4-LLC/project/tfe"
-  version = "0.5.0"
+  version = "0.4.0"
 
   description       = each.value.description
   name              = each.key
@@ -13,7 +13,7 @@ module "workspace" {
   for_each = local.workspace
 
   source  = "ALT-F4-LLC/workspace/tfe"
-  version = "0.8.0"
+  version = "0.6.0"
 
   description       = each.value.description
   execution_mode    = each.value.execution_mode
