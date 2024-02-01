@@ -6,7 +6,7 @@ locals {
   }
 
   workspace = {
-    "fem-eci-tfe2" = {
+    "fem-eci-tfe" = {
       description         = "Example description of a workspace"
       execution_mode      = "remote"
       project_id          = module.project["fem-eci-project"].id
