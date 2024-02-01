@@ -1,5 +1,5 @@
 variable "github_app_installation_id" {
-  default = 45714074
+  default = 46814016
   type    = number
 }
 
